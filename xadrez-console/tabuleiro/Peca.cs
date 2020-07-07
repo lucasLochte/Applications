@@ -42,5 +42,9 @@ namespace xadrez_console.tabuleiro
         {
             QtdMovimentos++;
         }
+        public void DecrementarMovimentos()
+        {
+            QtdMovimentos--;
+        }
     }
 }

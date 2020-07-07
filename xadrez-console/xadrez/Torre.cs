@@ -41,7 +41,7 @@ namespace xadrez_console.xadrez
             while (Tab.PosicaoValida(pos) && PodeMover(pos))
             {
                 mat[pos.Linha, pos.Coluna] = true;
-                if (Tab.RetirarPeca(pos) != null && Tab.RetornaPeca(pos).Cor != Cor)
+                if (Tab.RetornaPeca(pos) != null && Tab.RetornaPeca(pos).Cor != Cor)
                 {
                     break;
                 }
@@ -52,7 +52,7 @@ namespace xadrez_console.xadrez
             while (Tab.PosicaoValida(pos) && PodeMover(pos))
             {
                 mat[pos.Linha, pos.Coluna] = true;
-                if (Tab.RetirarPeca(pos) != null && Tab.RetornaPeca(pos).Cor != Cor)
+                if (Tab.RetornaPeca(pos) != null && Tab.RetornaPeca(pos).Cor != Cor)
                 {
                     break;
                 }
@@ -63,7 +63,7 @@ namespace xadrez_console.xadrez
             while (Tab.PosicaoValida(pos) && PodeMover(pos))
             {
                 mat[pos.Linha, pos.Coluna] = true;
-                if (Tab.RetirarPeca(pos) != null && Tab.RetornaPeca(pos).Cor != Cor)
+                if (Tab.RetornaPeca(pos) != null && Tab.RetornaPeca(pos).Cor != Cor)
                 {
                     break;
                 }
